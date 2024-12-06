@@ -1,0 +1,34 @@
+{
+  "name": "issue_tracker",
+  "version": "1.0.0",
+  "description": "Issue Tracker Project",
+  "main": "server.js",
+  "author": "Waldo Hidalgo",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "mocha --timeout 5000 --recursive --exit --ui tdd tests/"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.21.2",
+    "mocha": "^8.1.3",
+    "mongodb": "^6.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waldohidalgo/project-issue-tracker"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "freecodecamp",
+    "mocha",
+    "chai",
+    "mongodb"
+  ],
+  "license": "MIT"
+}

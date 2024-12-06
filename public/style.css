@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.issue {
+  margin: 20px auto;
+  padding: 5px;
+  width: 90%;
+  border: 2px solid black;
+  max-width: 500px;
+  text-align: center;
+}
+
+.closed {
+  background-color: lightgrey;
+}
+
+.id {
+  font-size: 14px;
+  word-break: break-all;
+}
+
+code {
+  color: red;
+  font-weight: 700;
+}
+
+#testForm,
+#newIssue,
+#testForm2,
+#testForm3 {
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+textarea {
+  resize: none !important;
+}
+
+header {
+  background-color: #ffefaf;
+  padding-block: 10px;
+}
+#testui {
+  background-color: #eee;
+}
